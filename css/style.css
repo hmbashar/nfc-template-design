@@ -1,0 +1,85 @@
+:root {
+    --nfc-primary-color:#18003A;
+    --nfc-Secondary-color:#F4F6FD;
+    --nfc-text-color:#8C8C8C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.b-nfc-header-area {
+    background-image: url('/img/Bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.b-nfc-header {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-nfc-header-content {
+    color: #fff;
+    text-align: center;
+}
+
+.b-nfc-header-content h1 {
+    margin-bottom: 20px;
+    color: #FFF;
+    font-family: 'Sora', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.b-nfc-main-content-area {
+    background-color: #FFF;
+    border-radius:20px ;
+    margin-top: -20px;
+}
+.b-nfc-profile-picture {
+    text-align: center;
+}
+.b-nfc-profile-picture img {
+    border: 6px solid var(--nfc-primary-color);
+  border-radius: 100%;
+  margin-top: -65px;
+}
+
+.b-nfc-social-profile{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.b-nfc-single-profile a {
+    text-decoration: none;
+}
+.b-nfc-single-profile i {
+    width: 40px;
+    height: 40px;
+    background-color: var(--nfc-Secondary-color);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    margin-right: 10px;
+    color: var(--nfc-primary-color);
+}
+.b-nfc-single-profile i:hover {
+    background-color: var(--nfc-primary-color);
+    color:#fff;
+}
